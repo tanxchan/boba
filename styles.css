@@ -31,8 +31,17 @@ h3{
     color:pink;
     text-decoration: none;
     transition-timing-function: ease-in;
-    transition-duration:200ms;
+    transition-duration:500ms;
 }
 .link:hover{
     color:brown;
+}
+.card{
+    width:200px;
+    height:fit-content;
+    padding:50px;
+    border-radius:10px;
+    background-color:blueviolet;
+    border-width:2px;
+    border-style:solid;
 }
