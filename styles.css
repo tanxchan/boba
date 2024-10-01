@@ -1,3 +1,8 @@
+:root{
+    --text-color:rgb(38, 205, 82);
+    --highlight-color:rgb(114, 39, 39);
+}
+
 *{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -20,11 +25,12 @@ h3{
 }
 .desc{
     display:block;
-    background-color:green;
+    background-color:none;
     height:fit-content;
     width:fit-content;
+    padding:10px;
 }
-.card p{
+p{
     color:rgb(38, 205, 82);
 }
 .link{
@@ -53,10 +59,16 @@ h3{
     left:0px;
     width:100vw;
     height:fit-content;
+    background-color:var(--highlight-color);
 }
 .nav-button{
     position:relative;
     padding:10px;
     background-color:brown;
     color:white;
+    border-left:2px;
+    border-right:2px;
+}
+.footer{
+    background-color:var(--highlight-color);
 }
