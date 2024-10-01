@@ -25,16 +25,16 @@ h3{
     width:fit-content;
 }
 .desc p{
-    color:red;
+    color:rgb(38, 205, 82);
 }
 .link{
-    color:pink;
+    color:green;
     text-decoration: none;
     transition-timing-function: ease-in;
     transition-duration:500ms;
 }
 .link:hover{
-    color:brown;
+    color:blue;
 }
 .card{
     width:200px;
@@ -44,4 +44,19 @@ h3{
     background-color:blueviolet;
     border-width:2px;
     border-style:solid;
+}
+.nav{
+    position:sticky;
+    display:flex;
+    flex-direction:row;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:fit-content;
+}
+.nav-button{
+    position:relative;
+    padding:10px;
+    background-color:brown;
+    color:white;
 }
