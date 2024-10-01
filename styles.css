@@ -24,7 +24,7 @@ h3{
     height:fit-content;
     width:fit-content;
 }
-.desc p{
+.card p{
     color:rgb(38, 205, 82);
 }
 .link{
@@ -41,7 +41,7 @@ h3{
     height:fit-content;
     padding:50px;
     border-radius:10px;
-    background-color:blueviolet;
+    background-color:rgb(130, 136, 155);
     border-width:2px;
     border-style:solid;
 }
