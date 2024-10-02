@@ -81,7 +81,14 @@ p{
 }
 .footer{
     background-color:var(--highlight-color);
+    margin:0px;
+    padding:10px;
+    height:calc(fit-content+100px);
+    width:100%;
 }
 .projects, .exp, .desc{
-    background-color:var();
+    background-color:none;
+    width:fit-content;
+    height:fit-content;
+    margin-left:10px;
 }
