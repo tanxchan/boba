@@ -63,7 +63,7 @@ p{
     height:fit-content;
     background-color:var(--highlight-color);
 }
-.nav::after, .nav::before{
+.nav-button::after, .nav-button::before{
     position:relative;
     width:10px;
     height:inherit;
