@@ -11,8 +11,8 @@ html{
     background-color:rgb(179, 98, 170);
 }
 h1{
-    color:blue;
-    box-shadow: 0px 0px 10px 10px yellow;
+    color:black;
+    /*box-shadow: 0px 0px 10px 10px yellow;*/
     width:fit-content;
     font-size:3.5rem;
 }
@@ -62,6 +62,12 @@ p{
     width:100vw;
     height:fit-content;
     background-color:var(--highlight-color);
+}
+.nav::after, .nav::before{
+    position:relative;
+    width:10px;
+    height:inherit;
+    background-color:black;
 }
 .nav-button{
     position:relative;
