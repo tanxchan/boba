@@ -6,6 +6,8 @@
 *{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     scroll-behavior: smooth;
+    margin:0px;
+    padding:0px;
 }
 html{
     background-color:rgb(179, 98, 170);
