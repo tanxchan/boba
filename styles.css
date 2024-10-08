@@ -93,3 +93,9 @@ p{
     margin-top:10px;
     margin-bottom:10px;
 }
+.portrait{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    object-fit: fill;
+}
